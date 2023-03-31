@@ -15,6 +15,24 @@
   box-sizing: border-box;
 }
 
+.header-sub-link {
+  color: grey;
+  font-size: 14px;
+}
+
+.header-title__blog {
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header-search {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.fa-search {
+  color: grey;
+}
+
 .main-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
