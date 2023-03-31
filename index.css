@@ -26,12 +26,13 @@
 }
 
 .main-grid {
-  border: 6px solid rgb(207, 208, 208);
+  border: 6px solid rgb(244, 244, 242);
   height: 200px;
+  padding: 20px;
 }
 
 .main-grid:hover {
-  border: 2px solid rgb(207, 208, 208);
+  border: 2px solid rgb(244, 244, 242);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -46,6 +47,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 2px solid rgb(244, 244, 242);
 }
 
 .footer-text {
