@@ -43,7 +43,9 @@
                 </div>
               </div>
               <div class="item-row">
-                <a href="#" class="item-row-link">Continue reading</a>
+                <a href="#blog-detail" class="item-row-link"
+                  >Continue reading</a
+                >
               </div>
             </div>
           </div>
@@ -64,7 +66,7 @@
                 </div>
               </div>
               <div class="item-row">
-                <a href="#" class="item-row-link">Continue reading</a>
+                <a href="#blog-detail" class="item-row-link">Continue reading</a>
               </div>
             </div>
           </div>
@@ -85,7 +87,7 @@
                 </div>
               </div>
               <div class="item-row">
-                <a href="#" class="item-row-link">Continue reading</a>
+                <a href="#blog-detail" class="item-row-link">Continue reading</a>
               </div>
             </div>
           </div>
@@ -106,7 +108,7 @@
                 </div>
               </div>
               <div class="item-row">
-                <a href="#" class="item-row-link">Continue reading</a>
+                <a href="#blog-detail" class="item-row-link">Continue reading</a>
               </div>
             </div>
           </div>
@@ -127,7 +129,7 @@
                 </div>
               </div>
               <div class="item-row">
-                <a href="#" class="item-row-link">Continue reading</a>
+                <a href="#blog-detail" class="item-row-link">Continue reading</a>
               </div>
             </div>
           </div>
@@ -148,7 +150,7 @@
                 </div>
               </div>
               <div class="item-row">
-                <a href="#" class="item-row-link">Continue reading</a>
+                <a href="#blog-detail" class="item-row-link">Continue reading</a>
               </div>
             </div>
           </div>
@@ -164,8 +166,8 @@
         </div>
       </footer>
     </div>
-    <div id="blog-detail">
-      <header class="header-container">
+    <div id="blog-detail" class="blog-detail">
+      <header class="header-container-blog">
         <div class="header-subscribe">
           <a href="#" class="header-sub-link">Subscribe</a>
         </div>
@@ -184,11 +186,11 @@
                 <div class="block-item">
                   <h2>Sample blog post</h2>
                   <div class="item-date">
-                    January 1, 2014 by <a href="#" class="blog-autho">Mark</a>
+                    January 1, 2014 by <a href="#" class="blog-author">Mark</a>
                   </div>
                 </div>
                 <div class="block-item">
-                  <p>
+                  <p class="bi__underline">
                     This blog post shows a few different types of content that's
                     supported and styled with Bootstrap. Basic typography,
                     images, and code are all supported.
@@ -199,30 +201,24 @@
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum is that it has a
-                    more-or-less normal distribution of letters, as opposed to
-                    using 'Content here, content here', making it look like
-                    readable English. Many desktop publishing packages and web
-                    page editors now use Lorem Ipsum as their default model
-                    text, and a search for 'lorem ipsum' will uncover many web
-                    sites still in their infancy.
+                    more-or-less normal distribution of letters
                   </p>
                 </div>
                 <div class="block-item">
-                  <p>
+                  <p class="bi__border">
                     There are many variations of passages of Lorem Ipsum
                     available, but
                     <span class="text-bold"
                       >the majority have suffered alteration in some form</span
                     >
-                    , by injected humour, or randomised words which don't look
-                    even slightly believable.
+                    , by injected humour.
                   </p>
                 </div>
                 <div class="block-item">
                   <p>
                     Contrary to popular belief, Lorem Ipsum is not simply random
                     text. It has roots in a piece of classical Latin literature
-                    from 45 BC, making it over 2000 years old.
+                    from 45 B.
                   </p>
                 </div>
               </div>
@@ -232,73 +228,81 @@
                   <p>
                     Richard McClintock, a Latin professor at Hampden-Sydney
                     College in Virginia, looked up one of the more obscure Latin
-                    words, consectetur, from a Lorem Ipsum passage, and going
-                    through the cites of the word in classical literature,
-                    discovered the undoubtable source.
+                    words, consectetur.
                   </p>
                 </div>
               </div>
               <div class="flex-column__block">
-                <h3>Sub-heading</h3>
-                <p>
-                  Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit..."
-                </p>
-                <p>Example code block</p>
-                <p>
-                  It has survived not only five centuries, but also the leap
-                  into electronic typesetting, remaining essentially unchanged.
-                  It was popularised in the 1960s with the release of Letraset
-                  sheets containing Lorem Ipsum passages, and more recently with
-                  desktop publishing software like Aldus PageMaker including
-                  versions of Lorem Ipsum.
-                </p>
+                <div class="block-item">
+                  <h3>Sub-heading</h3>
+
+                  <p>
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit..."
+                  </p>
+                </div>
+                <div class="block-item">
+                  <p class="bi__box">Example code block</p>
+                </div>
+                <div class="block-item">
+                  <p>
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages.
+                  </p>
+                </div>
               </div>
               <div class="flex-column__block">
-                <h3>Sub-heading</h3>
-                <p>
-                  It has survived not only five centuries, but also the leap
-                  into electronic typesetting, remaining essentially unchanged.
-                  It was popularised in the 1960s with the release of Letraset
-                  sheets containing Lorem Ipsum passages, and more recently with
-                  desktop publishing software like Aldus PageMaker including
-                  versions of Lorem Ipsum
-                </p>
-                <ul class="block-list">
-                  <li class="block-li">
-                    sometimes on purpose (injected humour and the like).
-                  </li>
-                  <li class="block-li">sometimes on purpose.</li>
-                  <li class="block-li">
-                    sometime (injected humour and the like).
-                  </li>
-                </ul>
-                <p>
-                  It has survived not only five centuries, but also the leap
-                  into electronic typesetting, remaining essentially unchanged.
-                  It was popularised in the 1960s with the release of Letraset
-                  sheets containing Lorem Ipsum passages, and more recently with
-                  desktop publishing software like Aldus PageMaker including
-                  versions of Lorem Ipsum
-                </p>
-                <ol class="block-list">
-                  <li class="block-li">
-                    sometimes on purpose (injected humour and the like).
-                  </li>
-                  <li class="block-li">sometimes on purpose.</li>
-                  <li class="block-li">
-                    sometime (injected humour and the like).
-                  </li>
-                </ol>
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you a complete account of the system
-                </p>
+                <div class="block-item">
+                  <h3>Sub-heading</h3>
+
+                  <p>
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release
+                    of Letraset sheets containing Lorem Ipsum passages, and more
+                    recently with desktop publishing software.
+                  </p>
+                </div>
+                <div class="block-item">
+                  <ul class="block-list">
+                    <li class="block-li">
+                      sometimes on purpose (injected humour and the like).
+                    </li>
+                    <li class="block-li">sometimes on purpose.</li>
+                    <li class="block-li">
+                      sometime (injected humour and the like).
+                    </li>
+                  </ul>
+                </div>
+                <div class="block-item">
+                  <p>
+                    It has survived not only five centuries, but also the leap
+                    into electronic typesetting.
+                  </p>
+                </div>
+                <div class="block-item">
+                  <ol class="block-list">
+                    <li class="block-li">
+                      sometimes on purpose (injected humour and the like).
+                    </li>
+                    <li class="block-li">sometimes on purpose.</li>
+                    <li class="block-li">
+                      sometime (injected humour and the like).
+                    </li>
+                  </ol>
+                </div>
+                <div class="block-item">
+                  <p>
+                    But I must explain to you how all this mistaken idea of
+                    denouncing pleasure and praising pain.
+                  </p>
+                </div>
               </div>
               <div class="flex-column__block">
                 <div class="block-btn-container">
-                  <btton class="btn">Older Post</btton>
+                  <button class="btn">Older Post</btton>
                   <button class="btn">Newer Post</button>
                 </div>
               </div>
@@ -307,7 +311,7 @@
           <div class="grid-right">
             <div class="flex-column">
               <div class="flex-column__item">
-                <div class="item-container">
+                <div class="item-container item-bcg">
                   <h3>About</h3>
                   <p>
                     Sed ut perspiciatis unde omnis iste natus error sit
@@ -341,7 +345,7 @@
               <div class="flex-column__item">
                 <div class="item-container">
                   <h3>Elsewhere</h3>
-                  <div class="item-elesewhere-list">
+                  <div class="item-elsewhere-list">
                     <a href="#" class="elsewhere-item">GitHub</a>
                     <a href="#" class="elsewhere-item">Twitter</a>
                     <a href="#" class="elsewhere-item">Facebook</a>
@@ -352,6 +356,14 @@
           </div>
         </div>
       </main>
+      <footer class="footer-container__blog">
+        <div class="footer-text">
+          <!-- <div class="footer-text__one"> -->
+            Blog template build for
+            <a href="#" class="footer-link-bootstrap">Bootstrap</a>
+          <!-- </div> -->
+        </div>
+      </footer>
     </div>
   </body>
 </html>
